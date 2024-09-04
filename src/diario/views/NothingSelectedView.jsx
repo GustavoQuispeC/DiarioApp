@@ -1,4 +1,4 @@
-import { StarOutlined } from "@mui/icons-material";
+import { StarOutline } from "@mui/icons-material";
 import { Grid, Typography } from "@mui/material";
 
 export const NothingSelectedView = () => {
@@ -12,7 +12,7 @@ export const NothingSelectedView = () => {
       sx={{ minHeight: "100vh", bgcolor: "primary.main", borderRadius: 2 }}
     >
         <Grid item xs={12}>
-            <StarOutlined sx={{ fontSize: 100, color:'white' }} />
+        <StarOutline sx={{ fontSize: 100, color: 'white' }} />
 
         </Grid>
         <Grid item xs={12}>
