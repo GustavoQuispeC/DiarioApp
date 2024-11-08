@@ -21,8 +21,15 @@ export const Navbar = ({ drawerWidth = 240 }) => {
         >
           <MenuOutlined />
         </IconButton>
-        <Grid container direction="row" justifyContent="space-between" alignItems='center' >
-          <Typography variant="h6" noWrap component='div'>DiarioApp</Typography>
+        <Grid
+          container
+          direction="row"
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          <Typography variant="h6" noWrap component="div">
+            Diario Aplicacion
+          </Typography>
           <IconButton color="error">
             <LogoutOutlined />
           </IconButton>
