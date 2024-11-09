@@ -42,3 +42,4 @@ export const Navbar = ({ drawerWidth = 240 }) => {
 Navbar.propTypes = {
   drawerWidth: PropTypes.number.isRequired,
 };
+// pendiente de agregar el logout
